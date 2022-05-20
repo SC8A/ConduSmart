@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>ConduSmart</title>
+</head>
+<body>
+    <header class = "header">
+        <div class = "header__logo">
+            <img class = "header__logo-resize" src="../images/logo.png" alt="logo">
+            <h2 class ="header_phrase">Centro de enseñanza automovilistica</h2> 
+        </div>
+        <nav class = "header__menu"  >
+            <ul >
+                <li class = "header__list"><a class = "header__links"  data-micron="bounce" href="../index.html">Inicio</a></li>
+                <li class = "header__list"><a class = "header__links"  data-micron="bounce" href="./servicios.html">Servicios</a></li>
+                <li class = "header__list"><a class = "header__links"  data-micron="bounce" href="./Contactanos.html">Contactanos</a></li>
+                <li class = "header__list"><a class = "header__links"  data-micron="bounce" href="./sobreNosotros.html">Sobre nosotros</a></li>
+                <li class = "header__list"><a class = "header__links"  data-micron="bounce" href="./ubicacion.html">Donde encontrarnos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="contact_form">
+
+        <div class="formulario">      
+        <h1 class = "formulario_title_1">Formulario de contacto</h1>
+            <h3  class = "formulario_title_2">Escríbenos y en breve los pondremos en contacto contigo</h3>
+            <form action="submeter-formulario.php" method="post">       
+                    <p class = "contact_p" >
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                    <p class = "contact_p">
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                    <p class = "contact_p">
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>      
+                    <p class = "contact_p">
+                    <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>    
+                    <p class = "contact_p">
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>                     
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                    </p>                    
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>          
+                
+            </form>
+        </div>  
+    </div>
+
+
+    <footer class ="contacts">
+        <h2 class ="contacts__title">Encuentranos</h2>
+        <div class = "contacts__divLinks">
+            <a class ="contacts__links"href="./pages/Contactanos.html"><img class = "contacts__images" src="../images/iconos/correo-electronico2.png" alt=""></a>
+            <!--Esto me lleva a la sesión de contactenos-->
+            <a class ="contacts__links"href="#"><img class = "contacts__images"src="../images/iconos/facebook.png" alt=""></a>
+            <!-- Esto debería abrir un link de fb, que todavía no hay -->
+            <a class ="contacts__links"href="#"><img class = "contacts__images"src="../images/iconos/instagram.png" alt=""></a>
+            <!-- Esto debería abrir una pagina de instagram que no todavía no hay -->
+            <a class ="contacts__links"href="#"><img class = "contacts__images"src="../images/iconos/llamada-telefonica.png" alt=""></a>
+            <!-- Esto debería abrir una ventana pequeña emergente con teléfonos-->
+        </div>
+        <div class ="contacts__Copyright">
+            <p>Todos los derechos © ConduSmart | Apartadó, Colombia </p>
+        </div>
+    </footer>
+</body>
+</html>
