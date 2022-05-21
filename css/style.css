@@ -19,7 +19,7 @@
 .all__body{
 	display: flex;
 	flex-direction: column;
-	gap: 40px;
+	gap: 80px;
 }
 
 
@@ -34,8 +34,6 @@
 	top:0;
 	color: #ffffff;
 	background-color: #242423;
-
-	/* border: 1px solid red; */
 }
 
 .header__menu{
@@ -100,42 +98,34 @@
 	display: flex;
 	justify-content: space-around;
 	gap: 20px;
+	
 }
 
 .services__images {
 	height: 300px;
 	width: 300px;
 	text-align: center;
-	transition: all 0.3s linear;
-
 }
 
-.services__images:hover{
+.services__Cards{
+	transition: all 0.3s linear;
+}
+
+.services__Cards:hover{
 	transform: scale(1.2, 1.2)
 }
 
-/* .services__list{
-	display: flex;
-	align-items: center;
-	border: 1px solid rgb(255, 0, 0);
-	
+
+/* .services__images:hover{
+	transform: scale(1.2, 1.2)
 } */
-.services__list ul{
-	text-decoration: none;
+
+.services__links__titles{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	transition: all 0.3s linear;
-	/* gap: 100px; */
 }
 
-.services__list li{
-	display: inline-block;
-	text-align: center;
-	/* font-family: "Ubuntu", sans-serif; darle el tipo de letra */
-	font-size: 20px;
-	width: 300px;
-}
 
 .index__ubication{
 	display: flex;
@@ -160,6 +150,10 @@
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	position: relative;
 	gap:20px;
 }
 

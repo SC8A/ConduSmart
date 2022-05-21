@@ -9,43 +9,44 @@
 </head>
 <body class = "body">
     <!-- header de la pagina-->
-    <section class = "all__body">
-        <header class = "header">
-            <div class = "header__logo">
-                <img class = "header__logo-resize" src="./images/logo.png" alt="logo">
-                <h2 class ="header_phrase">Centro de enseñanza automovilistica</h2> 
-            </div>
-            <nav class = "header__menu"  >
-                <ul >
-                    <li class = "header__list"><a class = "header__links"   href="./index.html">Inicio</a></li>
-                    <li class = "header__list"><a class = "header__links"   href="./pages/servicios.html">Servicios</a></li>
-                    <li class = "header__list"><a class = "header__links"   href="./pages/Contactanos.html">Contactanos</a></li>
-                    <li class = "header__list"><a class = "header__links"   href="./pages/sobreNosotros.html">Sobre nosotros</a></li>
-                    <li class = "header__list"><a class = "header__links"   href="./pages/ubicacion.html">Donde encontrarnos</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- fin del header--> 
-
+    <header class = "header">
+        <div class = "header__logo">
+            <img class = "header__logo-resize" src="./images/logo.png" alt="logo">
+            <h2 class ="header_phrase">Centro de enseñanza automovilistica</h2> 
+        </div>
+        <nav class = "header__menu"  >
+            <ul >
+                <li class = "header__list"><a class = "header__links"   href="./index.html">Inicio</a></li>
+                <li class = "header__list"><a class = "header__links"   href="./pages/servicios.html">Servicios</a></li>
+                <li class = "header__list"><a class = "header__links"   href="./pages/Contactanos.html">Contactanos</a></li>
+                <li class = "header__list"><a class = "header__links"   href="./pages/sobreNosotros.html">Sobre nosotros</a></li>
+                <li class = "header__list"><a class = "header__links"   href="./pages/ubicacion.html">Donde encontrarnos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- fin del header--> 
+    <main class = "all__body">
+    
         <!-- Servicios de la pagina-->
-        
-
         <section class = "services">
             <div class = "services__title">
                 <h2 class="services__title--center">Servicios</h2>
             </div>
             <div class="services__links">
-                <a href="./pages/servicios.html#school"><img class= "services__images" src="./images/escuela.png" alt="Escuela de conducción"></a>
-                <a href="./pages/servicios.html#advisory"><img class= "services__images" src="./images/asesoria.png" alt="Asesorias de transito"></a>
-                <a href="./pages/servicios.html#transfer"><img class= "services__images" src="./images/traspasos.png" alt="Traspasos"></a>
+                <div class = "services__Cards">
+                    <a href="./pages/servicios.html#school"><img class= "services__images" src="./images/escuela.png" alt="Escuela de conducción"></a>
+                    <h2 class = "services__links__titles">Escuela de conducción</h2>
+                </div>
+                <div class = "services__Cards">
+                    <a href="./pages/servicios.html#advisory"><img class= "services__images" src="./images/asesoria.png" alt="Asesorias de transito"></a>
+                    <h2 class = "services__links__titles">Trámites</h2>
+                </div>
+                <div class = "services__Cards">
+                    <a href="./pages/servicios.html#transfer"><img class= "services__images" src="./images/traspasos.png" alt="Traspasos"></a>
+                    <h2 class = "services__links__titles">Traspasos</h2>
+                </div>
             </div>
         </div>
-        <div class = "services__list">
-            <ul>
-                <li>Escuela de conducción</li>
-                <li>Trámites</li>
-                <li>Traspasos</li>
-            </ul>
         </section>
         <!-- fin de Servicios -->
         <section class = "index__ubication">
@@ -75,6 +76,6 @@
                 <p>Todos los derechos © ConduSmart | Apartadó, Colombia </p>
             </div>
         </footer>
-    </section> 
+    </main> 
 </body>
 </html>
