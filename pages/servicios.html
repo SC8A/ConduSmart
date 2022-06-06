@@ -12,16 +12,21 @@
     <header class = "header">
         <div class = "header__logo">
             <img class = "header__logo-resize" src="../images/logo.png" alt="logo">
-            <h2 class ="header_phrase">Centro de enseñanza automovilistica</h2> 
+            <h2 class ="header_phrase">Centro de enseñanza automovilistica</h2>
         </div>
-        <nav class = "header__menu"  >
-            <ul >
-                <li class = "header__list"><a class = "header__links"  data-micron="bounce" href="../index.html">Inicio</a></li>
-                <li class = "header__list"><a class = "header__links"  data-micron="bounce" href="./servicios.html">Servicios</a></li>
-                <li class = "header__list"><a class = "header__links"  data-micron="bounce" href="./Contactanos.html">Contactanos</a></li>
-                <li class = "header__list"><a class = "header__links"  data-micron="bounce" href="./sobreNosotros.html">Sobre nosotros</a></li>
-                <li class = "header__list"><a class = "header__links"  data-micron="bounce" href="./ubicacion.html">Donde encontrarnos</a></li>
+        <nav class = "navbar"  >
+            <ul class = "header__menu" >
+                <li class = "header__list"><a class = "header__links"   href="../index.html">Inicio</a></li>
+                <li class = "header__list"><a class = "header__links"   href="./servicios.html">Servicios</a></li>
+                <li class = "header__list"><a class = "header__links"   href="./Contactanos.html">Contactanos</a></li>
+                <li class = "header__list"><a class = "header__links"   href="./sobreNosotros.html">Sobre nosotros</a></li>
+                <li class = "header__list"><a class = "header__links"   href="./ubicacion.html">Donde encontrarnos</a></li>
             </ul>
+            <div class = "hamburguer">
+                <span class = "bar"></span>
+                <span class = "bar"></span>
+                <span class = "bar"></span>
+            </div>
         </nav>
     </header>
     <main class = "services__main">
@@ -45,13 +50,13 @@
                     obcaecati, iste error laudantium accusantium tempore minima magnam?</p>
             </article>
             <div class = "school">
-                <img  src="../images/imagen_1.1.jpg" alt="Escuela de conducción">
+                <img  class = "pages__services__images"src="../images/imagen_1.1.jpg" alt="Escuela de conducción">
             </div>
             <div class = "advisory">
-                <img  src="../images/imagen_2.jpg" alt="Asesorias de transito">
+                <img  class = "pages__services__images"src="../images/imagen_2.jpg" alt="Asesorias de transito">
             </div>
             <div class = "transfer">
-                <img  src="../images/imagen_3.jpg" alt="Traspasos">
+                <img  class = "pages__services__images"src="../images/imagen_3.jpg" alt="Traspasos">
             </div>
     </main>
 
@@ -72,5 +77,6 @@
             <p>Todos los derechos © ConduSmart | Apartadó, Colombia </p>
         </div>
     </footer>
+    <script src="../script.js"></script>
 </body>
 </html>
