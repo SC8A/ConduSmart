@@ -66,7 +66,7 @@
 		width: 40em;
 	}
 
-	.header_phrase{
+	.header__phrase{
 		font-size: 1.2rem;
 		align-self: center;
 	}
@@ -495,7 +495,7 @@
 		align-items: center;
 	}
 
-	.header_phrase{
+	.header__phrase{
 		display: flex;
 		flex-direction: row;
 		color: white;

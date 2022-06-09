@@ -1,0 +1,169 @@
+
+@media screen and (min-width:813px) {
+    .all__body{
+		display: flex;
+		flex-direction: column;
+		margin-top: 1em; /*Con esto logré separar el header del primer titulo */
+		gap: 80px;
+	}
+    .header{
+        display: flex; /*esto para el flexmode*/
+        justify-content: space-between; /*todos alineados por igual espacio */
+        /* padding: 30px 10%; */
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        align-items: baseline;
+        left: 0;
+        top:0;
+        color: #ffffff;
+        z-index: 1;
+        background-color: #242423;
+    
+        &__logo{
+            display: flex;
+            gap: 20px;
+            flex-direction: row;
+            cursor:pointer;
+            align-self: center;
+            height: 100%;
+            width: 40em;
+        }
+    
+        &__logo-resize{
+            height: 5rem;
+            width: 5rem;
+            /* border: 1px solid rgba(0, 192, 134, 0.678); */
+        }
+        &__phrase{
+            font-size: 1.2rem;
+            align-self: center;
+        }
+        
+        &header__list {
+            display: inline-block; /*Esto hace que los links esten horizontal*/
+            padding: 0px 5px;
+            font-size: 0.9rem;
+            /* border: 1px solid #ffffff;		 */
+        }
+        &__links{
+            color: #ffffff;;
+            text-decoration: none;
+            position:relative;	
+        }
+        &__links::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            border-radius: 4px;
+            background-color: #FED766;
+            bottom: 0;
+            left: 0;
+            transform-origin: right;
+            transform: scaleX(0);
+            transition: transform .3s ease-in-out;
+        }
+        &__links:hover::before{
+            /* border-bottom:1px solid #FED766; */
+            transform-origin: left;
+            transform: scaleX(1);
+        }
+        .hamburguer{
+            display: none;
+            cursor: pointer;
+        }
+        .bar{
+            display: block;
+            width: 25px;
+            height: 3px;
+            margin: 5px auto;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            background-color: white;
+        }
+    }
+}
+
+@media screen and (max-width:812px) {
+    .header{
+		display:flex;
+		flex-direction: row;
+		justify-content:center;
+		align-items: center;
+		height: 80px;
+		width: 100%;
+		position: fixed;
+		left: 0;
+		top:0;
+		background-color: #242423;
+		gap: 20px;
+
+        &__menu{
+            display:flex;
+            justify-content:space-around;
+            position: fixed;
+            left: -100%;
+            top:75px; /*Bajar el menu*/
+            flex-direction: row;
+            background-color:#242423;
+            width: 100%;
+            text-align: center;
+            transition: 0.3s;
+        }
+        &r__list{
+            display: inline-block;
+            margin: 16px 0;
+        }
+        &__menu.active{
+            left: 0;
+        }
+    
+        &__logo-resize{
+            height: 5rem;
+            width: 5rem;
+        }
+        &__logo{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+        }
+    
+        &__phrase{
+            display: flex;
+            flex-direction: row;
+            color: white;
+            font-size: 1.2rem;
+        }
+        &__links{
+            color: #ffffff;;
+            text-decoration: none;
+            font-size: 0.82em;
+            /* border: 1px solid red; */
+        }
+        .hamburguer{
+            display: block;
+            
+        }
+        .bar{
+            display: block;
+            width: 25px;
+            height: 3px;
+            margin: 5px auto;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            background-color: white;
+        }
+        .hamburguer.active .bar:nth-child(2){
+            opacity: 0;
+        }
+        .hamburguer.active .bar:nth-child(1)
+        {
+            transform: translateY(8px) rotate(45deg);
+        }
+        .hamburguer.active .bar:nth-child(3){
+            transform: translateY(-8px) rotate(-45deg);
+        }
+	}
+}
