@@ -1,5 +1,4 @@
 
-
 .header{
     display: flex; /*esto para el flexmode*/
     justify-content: space-between; /*todos alineados por igual espacio */
@@ -14,16 +13,7 @@
     z-index: 1;
     background-color: #242423;
     
-    .navbar{
-		display: flex;
-		align-items: center;
-		justify-content:flex-end;
-		width: 90%;
-		height: 100%;
-		font-size: 70%;
-		/* border: 1px solid #ffffff; */
-	}
-    .header__logo{
+    &__logo{
         display: flex;
         gap: 20px;
         flex-direction: row;
@@ -32,29 +22,30 @@
         height: 100%;
         width: 40em;
     }
-
-    .header__logo-resize{
+    &__logo-resize{
         height: 5rem;
         width: 5rem;
         /* border: 1px solid rgba(0, 192, 134, 0.678); */
     }
-    .header__phrase{
+
+    &__phrase{
         font-size: 1.2rem;
         align-self: center;
     }
-    
-    .header__list {
+
+    &__list {
         display: inline-block; /*Esto hace que los links esten horizontal*/
         padding: 0px 5px;
         font-size: 0.9rem;
         /* border: 1px solid #ffffff;		 */
     }
-    .header__links{
+
+    &__links{
         color: #ffffff;;
         text-decoration: none;
         position:relative;	
     }
-    .header__links::before{
+    &__links::before{
         content: '';
         position: absolute;
         width: 100%;
@@ -67,11 +58,21 @@
         transform: scaleX(0);
         transition: transform .3s ease-in-out;
     }
-    .header__links:hover::before{
+    &__links:hover::before{
         /* border-bottom:1px solid #FED766; */
         transform-origin: left;
         transform: scaleX(1);
     }
+    .navbar{
+		display: flex;
+		align-items: center;
+		justify-content:flex-end;
+		width: 90%;
+		height: 100%;
+		font-size: 70%;
+		/* border: 1px solid #ffffff; */
+	}
+    
     .hamburguer{
         display: none;
         cursor: pointer;

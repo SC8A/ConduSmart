@@ -1,15 +1,14 @@
-
-    .contacts{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding-top: 2em;
-	}
-	.contacts__images{
-		width: 2em;
-		height: 2em;
-	}
-	.contacts__Copyright{
-		font-size: 50%;
-	}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+}
+.footer__images{
+    width: 2em;
+    height: 2em;
+}
+.footer__Copyright{
+    font-size: 50%;
+}

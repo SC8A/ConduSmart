@@ -1,102 +1,48 @@
+// Externos 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Ubuntu&display=swap');
 
+// Misc
 @import './misc/normalize';
-@import './partials/header';
-@import './partials/footer';
+@import './misc/variable';
+@import './misc/animations';
 
 
+@media screen and (min-width:813px){
+//partialss
 .body {
-    margin: 0;
     padding-top: 80px;
     gap: 20px;
 }
+
 .all__body{
     display: flex;
     flex-direction: column;
     margin-top: 1em; /*Con esto logré separar el header del primer titulo */
     gap: 80px;
 }
-.services{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 50px;
-}
-.services__title{
-    display: inline-block;
-    align-self: center;
-    border-bottom: 4px solid #FED766;
+@import './partials/header';
+@import './partials/footer';
+
+// Pages
+@import './pages/home';
+@import './pages/Contactanos';
+@import './pages/servicios';
+@import './pages/sobreNosotros';
+@import './pages/ubicacion';
 }
 
-.services__links{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    max-width: 1300px;
-    min-width: 812px;
-    gap: 2%;
-}
-.service__Cards{
-    flex: 0 0 30%;
-    flex-shrink: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border:1px solid #FED766;
-    border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: all 0.3s linear;
-}
-            
-.services__links__titles{
-    display: flex;
-    justify-content: center;
-    transition: all 0.3s linear;
-}
-.cards__content{
-    display: flex;
-    flex-direction: column;
-    left:0;
-    bottom:0;
-    padding: 1rem;
-    text-align: justify;
-    text-justify: inter-word;
-    gap:1em;
-}
+@media screen and (max-width:812px){
+//partialss
+@import './partials/header_responsive';
+@import './partials/footer_responsive';
 
-.services__images {
-    height: 20em;
-    width: 20em;
-    padding: 0.8em;
-    border-radius: 50%;
+// Pages
+@import './pages_responsive/home_rp';
+@import './pages_responsive/Contactanos_rp';
+@import './pages_responsive/servicios_rp';
+@import './pages_responsive/sobreNosotros_rp';
+@import './pages_responsive/ubicacion_rp';
 }
-.services__Cards:hover{
-    transform: scale(1.1, 1.1);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-
-        
-    
-
-.index__ubication{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-
-        .index__location{
-            align-self: flex-start;
-            order: 2;
-        }
-        .index__map{
-            order: 1;
-            border-radius: 10px;
-            align-self: center;
-            height: 300px;
-            width: 300px;
-        }
-    }
 
 

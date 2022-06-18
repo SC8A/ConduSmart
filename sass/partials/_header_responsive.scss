@@ -1,16 +1,16 @@
-
 .header{
-	display:flex;
-	flex-direction: row;
-	justify-content:center;
-	align-items: center;
-	height: 80px;
-	width: 100%;
-	position: fixed;
-	left: 0;
-	top:0;
-	background-color: #242423;
-	gap: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top:0;
+    background-color: #242423;
+    gap: 20px;
+
     &__menu{
         display:flex;
         justify-content:space-around;
@@ -23,14 +23,15 @@
         text-align: center;
         transition: 0.3s;
     }
-    &r__list{
+
+    &__list{
         display: inline-block;
         margin: 16px 0;
     }
     &__menu.active{
         left: 0;
     }
-
+    
     &__logo-resize{
         height: 5rem;
         width: 5rem;
@@ -41,8 +42,8 @@
         justify-content:center;
         align-items: center;
     }
-
-    &__phrase{
+    
+    &_phrase{
         display: flex;
         flex-direction: row;
         color: white;
@@ -54,6 +55,7 @@
         font-size: 0.82em;
         /* border: 1px solid red; */
     }
+
     .hamburguer{
         display: block;
         
@@ -78,3 +80,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+
+
+
