@@ -1,0 +1,13 @@
+.body {
+    padding-top: 80px;
+    gap: 20px;
+
+    .all__body{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em; /*Con esto logré separar el header del primer titulo */
+        gap: 4em;
+        padding-bottom: 3em;
+    }
+}
+

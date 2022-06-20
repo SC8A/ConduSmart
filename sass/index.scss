@@ -10,23 +10,14 @@
 
 @media screen and (min-width:813px){
 //partialss
-.body {
-    padding-top: 80px;
-    gap: 20px;
-}
+@import './partials/body';
 
-.all__body{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1em; /*Con esto logré separar el header del primer titulo */
-    gap: 80px;
-}
 @import './partials/header';
 @import './partials/footer';
 
 // Pages
 @import './pages/home';
-@import './pages/Contactanos';
+@import './pages/contactanos';
 @import './pages/servicios';
 @import './pages/sobreNosotros';
 @import './pages/ubicacion';

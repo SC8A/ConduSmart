@@ -9,7 +9,7 @@
     &__title{
         display: inline-block;
         align-self: center;
-        border-bottom: 4px solid #FED766;
+        border-bottom: 2px solid #FED766;
     }
 
     &__links{
@@ -52,30 +52,28 @@
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         }
     }
-
-    
-
-    
-    
-    
 }
 
-.index__ubication{
+.index{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 50px;
+    gap: 1em;
 
     &__location{
-        align-self: flex-start;
-        order: 2;
+        align-self: center;
+        justify-content: center;
+        order: 1;
     }
     &__map{
-        order: 1;
+        order: 2;
         border-radius: 10px;
         align-self: center;
+        max-width: 1300px;
+        min-width: 812px;
         height: 300px;
-        width: 300px;
+        width: 90%;
+        border: none;
     }
 }
 
