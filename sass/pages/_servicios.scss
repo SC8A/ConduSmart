@@ -1,0 +1,44 @@
+.servicesMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8em;
+    padding-bottom: 4em;
+    max-width: 100%;
+    min-width: 812px;
+    width: 100%;
+    // max-width: 100%;
+    gap:2em;
+    
+    &__text{
+        display: flex;
+        flex-direction: row;
+        // align-self: flex-start;
+        width: 60em;
+        text-align: justify;
+        text-justify: inter-word;
+        gap:1em;
+    }
+    &__refuerzos{
+        display: flex;
+        flex-direction: row;
+        max-width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        
+        &__images{
+            height: 25em;
+            width: 30em;
+            border-radius: 5px;
+        }
+    }
+    &__types{
+        display: flex;
+        flex-direction: row;
+        width:60em;
+        justify-content: space-around;
+        gap: 1em;
+    }
+}

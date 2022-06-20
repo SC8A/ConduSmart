@@ -245,6 +245,41 @@
       color: #0e0e0e; }
     .contact_form .serviceSection {
       display: flex; }
+  .servicesMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8em;
+    padding-bottom: 4em;
+    max-width: 100%;
+    min-width: 812px;
+    width: 100%;
+    gap: 2em; }
+    .servicesMain__text {
+      display: flex;
+      flex-direction: row;
+      width: 60em;
+      text-align: justify;
+      text-justify: inter-word;
+      gap: 1em; }
+    .servicesMain__refuerzos {
+      display: flex;
+      flex-direction: row;
+      max-width: 80%;
+      justify-content: center;
+      align-items: center;
+      gap: 1em; }
+      .servicesMain__refuerzos__images {
+        height: 25em;
+        width: 30em;
+        border-radius: 5px; }
+    .servicesMain__types {
+      display: flex;
+      flex-direction: row;
+      width: 60em;
+      justify-content: space-around;
+      gap: 1em; }
   .school {
     display: flex;
     flex-direction: column;
@@ -252,7 +287,6 @@
     align-items: center;
     padding-top: 8em;
     padding-bottom: 4em;
-    max-width: 1300px;
     min-width: 812px;
     max-width: 100%;
     gap: 2em; }
@@ -285,9 +319,8 @@
     flex-direction: column;
     align-items: center;
     padding-top: 6em;
-    height: 100vh;
-    gap: 1em;
-    border: 1px solid red; }
+    border: 1px solid red;
+    gap: 1em; }
     .ubicacionPg .ubicacion__map {
       border: none;
       width: 90%;
@@ -495,52 +528,40 @@
     .contact_form .contact_p {
       font-size: 14px;
       color: #0e0e0e; }
-  /*SERVICES PAGES*/
-  .services__main {
-    width: 100%;
-    height: 50%;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(2, 1fr);
+  .servicesMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    gap: 1em;
-    padding: 5.5em 2% 1em;
-    /*Arriba, derecha-izquierda, abajo*/
-    /* resize: auto; */ }
-    .services__main .info_ {
-      padding: 2px;
+    padding-top: 6em;
+    padding-bottom: 4em;
+    width: 100%;
+    gap: 2em; }
+    .servicesMain__text {
+      display: flex;
       flex-direction: column;
-      justify-content: center;
+      width: 90%;
+      gap: 1em; }
+    .servicesMain__text p {
       text-align: justify;
-      align-items: center; }
-    .services__main .school {
-      grid-row: 1/2;
-      height: 100%;
-      width: 100%;
-      border-radius: 5%; }
-    .services__main .advisory {
-      grid-row: 2/3;
-      height: 100%;
-      width: 100%;
-      border-radius: 5%; }
-    .services__main .transfer {
-      grid-row: 3/4;
-      height: 100%;
-      width: 100%;
-      border-radius: 5%; }
-    .services__main .school__article {
-      grid-column: 2/3; }
-    .services__main .advisory__article {
-      grid-row: 2/3;
-      grid-column: 2/3; }
-    .services__main .transfer__article {
-      grid-column: 2/3;
-      grid-row: 3/4; }
-    .services__main .pages__services__images {
-      width: 100%;
-      height: 100%;
-      border-radius: 5%; }
+      text-justify: inter-word; }
+    .servicesMain__refuerzos {
+      display: flex;
+      flex-direction: column;
+      max-width: 80%;
+      justify-content: center;
+      align-items: center;
+      gap: 1em; }
+      .servicesMain__refuerzos__images {
+        height: 90%;
+        width: 90%;
+        border-radius: 5px; }
+    .servicesMain__types {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      justify-content: center;
+      gap: 1em; }
   .school {
     display: flex;
     flex-direction: column;
@@ -573,4 +594,16 @@
         text-align: justify;
         max-width: 20em;
         text-justify: inter-word;
-        gap: 0.5em; } }
+        gap: 0.5em; }
+  .ubicacionPg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6em;
+    height: 100vh;
+    gap: 1em; }
+    .ubicacionPg .ubicacion__map {
+      border: none;
+      width: 90%;
+      height: 15em;
+      border-radius: 5px; } }
