@@ -10,3 +10,4 @@ document.querySelectorAll(".header__links").forEach(n => n.addEventListener("cli
     hamburguer.classList.remove("active");
     navMenu.classList.remove("active");
 }))
+

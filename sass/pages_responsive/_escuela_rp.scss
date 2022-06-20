@@ -1,0 +1,42 @@
+.school{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6em;
+    gap:2em;
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:2em;
+        border: 1px solid #FED766;
+        padding: 0.5em;
+        max-width: 90%;
+        min-width: 80%;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        
+
+        &__img
+        {
+            order:1;
+            height: 90%;
+            width: 90%;
+            border-radius: 5%;
+        }
+        &__content{
+            order:2;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            text-align: justify;
+            max-width: 20em;
+            text-justify: inter-word;
+            gap:0.5em;
+        }
+
+    }
+}

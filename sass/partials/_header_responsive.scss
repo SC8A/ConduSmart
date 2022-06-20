@@ -13,25 +13,33 @@
 
     &__menu{
         display:flex;
-        justify-content:space-around;
+        flex-direction: column;
         position: fixed;
-        left: -100%;
-        top:75px; /*Bajar el menu*/
-        flex-direction: row;
         background-color:#242423;
+        right: -100%;
+        top:75px; /*Bajar el menu*/
         width: 100%;
-        text-align: center;
         transition: 0.3s;
+        
     }
 
     &__list{
+        text-decoration: none;
         display: inline-block;
-        margin: 16px 0;
+        height: 20px;
+        margin: 5px 0;
     }
     &__menu.active{
-        left: 0;
+        // top: 75px;
+        display: flex;
+        right:0;
     }
-    
+    &__menu.active .header__list{
+        // top: 75px;
+        display: flex;
+        font-size: 1rem;
+        justify-content: center;
+    }
     &__logo-resize{
         height: 5rem;
         width: 5rem;
@@ -64,10 +72,10 @@
         display: block;
         width: 25px;
         height: 3px;
-        margin: 5px auto;
+        margin: 5px 10px;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: white;
+        background-color: white;;
     }
     .hamburguer.active .bar:nth-child(2){
         opacity: 0;

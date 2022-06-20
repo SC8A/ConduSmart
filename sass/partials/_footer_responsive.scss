@@ -4,11 +4,13 @@
     align-items: center;
     justify-content: center;
     padding-top: 2em;
+
+    &__images{
+        width: 2em;
+        height: 2em;
+    }
+    &__copyright{
+        font-size: 80%;
+    }
 }
-.footer__images{
-    width: 2em;
-    height: 2em;
-}
-.footer__Copyright{
-    font-size: 50%;
-}
+

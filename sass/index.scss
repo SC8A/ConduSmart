@@ -8,7 +8,7 @@
 @import './misc/animations';
 
 
-@media screen and (min-width:813px){
+@media screen and (min-width:882px){
 //partialss
 @import './partials/body';
 
@@ -19,11 +19,11 @@
 @import './pages/home';
 @import './pages/contactanos';
 @import './pages/servicios';
-@import './pages/sobreNosotros';
+@import './pages/escuela';
 @import './pages/ubicacion';
 }
 
-@media screen and (max-width:812px){
+@media screen and (max-width:881px){
 //partialss
 @import './partials/header_responsive';
 @import './partials/footer_responsive';
@@ -32,7 +32,7 @@
 @import './pages_responsive/home_rp';
 @import './pages_responsive/Contactanos_rp';
 @import './pages_responsive/servicios_rp';
-@import './pages_responsive/sobreNosotros_rp';
+@import './pages_responsive/escuela_rp';
 @import './pages_responsive/ubicacion_rp';
 }
 
