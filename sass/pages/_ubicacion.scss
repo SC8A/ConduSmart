@@ -1,0 +1,18 @@
+.ubicacionPg{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    padding-top: 6em;
+    height: 100vh;
+    gap:1em;
+    border: 1px solid red;
+
+    .ubicacion__map{
+        border: none;
+        width: 90%;
+        height: 15em;
+        border-radius: 5px;
+    }
+
+}
