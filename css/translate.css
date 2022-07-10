@@ -194,7 +194,7 @@
       border-radius: 5px;
       border-style: solid;
       border-width: 1px;
-      border-color: #ffffff;
+      border-color: #fbfbfb;
       margin-top: 10px;
       padding-left: 10px;
       margin-bottom: 20px; }
@@ -205,7 +205,7 @@
       border-radius: 5px;
       border-style: solid;
       border-width: 1px;
-      border-color: #ffffff;
+      border-color: #fbfbfb;
       margin-top: 10px;
       padding-left: 10px;
       margin-bottom: 20px;
@@ -219,30 +219,30 @@
       margin-bottom: 20px;
       margin-top: 10px;
       text-transform: uppercase;
-      background-color: #ffffff;
-      border-color: #ffffff;
+      background-color: #fbfbfb;
+      border-color: #fbfbfb;
       border-style: solid;
       border-radius: 10px;
       width: 420px;
       cursor: pointer; }
     .contact_form button p {
-      color: black; }
+      color: #242423; }
     .contact_form span {
       color: #ff0000; }
     .contact_form .aviso {
       font-size: 13px;
-      color: #0e0e0e; }
+      color: #242423; }
     .contact_form .formulario_title_1 {
       font-size: 35px;
       padding-bottom: 20px;
-      color: #000000; }
+      color: #242423; }
     .contact_form .formulario_title_2 {
       font-size: 16px;
       padding-bottom: 30px;
-      color: #0e0e0e; }
+      color: #242423; }
     .contact_form .contact_p {
       font-size: 14px;
-      color: #0e0e0e; }
+      color: #242423; }
     .contact_form .serviceSection {
       display: flex; }
   .servicesMain {
@@ -299,7 +299,7 @@
       border: 1px solid #FED766;
       padding: 0.5em;
       border-radius: 5px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
       .school__card__img {
         order: 1;
         height: 30em;
@@ -319,7 +319,6 @@
     flex-direction: column;
     align-items: center;
     padding-top: 6em;
-    border: 1px solid red;
     gap: 1em; }
     .ubicacionPg .ubicacion__map {
       border: none;
@@ -480,7 +479,7 @@
       border-radius: 5px;
       border-style: solid;
       border-width: 1px;
-      border-color: #ffffff;
+      border-color: #fbfbfb;
       margin-top: 10px;
       padding-left: 10px;
       margin-bottom: 20px; }
@@ -491,7 +490,7 @@
       border-radius: 5px;
       border-style: solid;
       border-width: 1px;
-      border-color: #ffffff;
+      border-color: #fbfbfb;
       margin-top: 10px;
       padding-left: 10px;
       margin-bottom: 20px; }
@@ -504,30 +503,30 @@
       margin-bottom: 20px;
       margin-top: 10px;
       text-transform: uppercase;
-      background-color: #ffffff;
-      border-color: #ffffff;
+      background-color: #fbfbfb;
+      border-color: #fbfbfb;
       border-style: solid;
       border-radius: 10px;
       width: 20em;
       cursor: pointer; }
     .contact_form button p {
-      color: black; }
+      color: #242423; }
     .contact_form span {
       color: #ff0000; }
     .contact_form .aviso {
       font-size: 13px;
-      color: #0e0e0e; }
+      color: #242423; }
     .contact_form .formulario_title_1 {
       font-size: 35px;
       padding-bottom: 20px;
-      color: #000000; }
+      color: #242423; }
     .contact_form .formulario_title_2 {
       font-size: 16px;
       padding-bottom: 30px;
-      color: #0e0e0e; }
+      color: #242423; }
     .contact_form .contact_p {
       font-size: 14px;
-      color: #0e0e0e; }
+      color: #242423; }
   .servicesMain {
     display: flex;
     flex-direction: column;

@@ -15,10 +15,10 @@
         align-items: center;
         justify-content: center;
         gap:2em;
-        border: 1px solid #FED766;
+        border: 1px solid map-get($color , c_yellow);
         padding: 0.5em;
         border-radius: 5px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 4px 8px map-get($color , c_shadow);
         
 
         &__img

@@ -1,6 +1,15 @@
 $color:(
     c_yellow:#FED766,
-    c_black: 242423,
-    c_orange: F26419,
+    c_black: #242423,
+    c_orange: #F26419,
+    c_white: #fbfbfb,
+    c_red:#ff0000,
+    c_shadow: rgba(0,0,0,0.2),
 );
 
+$letterSize:(
+    2em: 2em,
+    maxW: 20em,
+    maxW2:30em,
+
+);

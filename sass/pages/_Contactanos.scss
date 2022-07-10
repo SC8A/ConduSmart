@@ -6,17 +6,17 @@
     margin-top: 100px; 
     padding-top: 30px;
     padding-bottom: 20px;  
-    background-color: #FED766; 
+    background-color:map-get($color , c_yellow ); 
     padding-left: 30px;
 
     input{
-        background-color: #fbfbfb; 
+        background-color: map-get($color , c_white); 
         width: 408px; 
         height: 40px; 
         border-radius: 5px;  
         border-style: solid; 
         border-width: 1px; 
-        border-color: #ffffff; 
+        border-color: map-get($color , c_white); 
         margin-top: 10px;  
         padding-left: 10px;
         margin-bottom: 20px; 
@@ -24,13 +24,13 @@
     
     
     textarea{
-        background-color: #fbfbfb; 
+        background-color:map-get($color , c_white); 
         width: 405px; 
         height: 150px; 
         border-radius: 5px;  
         border-style: solid; 
         border-width: 1px; 
-        border-color: #ffffff; 
+        border-color:map-get($color , c_white); 
         margin-top: 10px;  
         padding-left: 10px;
         margin-bottom: 20px; 
@@ -50,8 +50,8 @@
         margin-bottom: 20px; 
         margin-top: 10px;   
         text-transform: uppercase;
-        background-color: #ffffff; 
-        border-color: #ffffff; 
+        background-color: map-get($color , c_white); 
+        border-color: map-get($color , c_white); 
         border-style: solid; 
         border-radius: 10px;  
         width: 420px;   
@@ -60,38 +60,38 @@
     
     
     button p{
-        color: rgb(0, 0, 0); 
+        color:map-get($color , c_black); 
     }
     
     
     span{
-        color: #ff0000; 
+        color:map-get($color , c_red); 
     }
     
     
     .aviso{
         font-size: 13px;  
-        color: #0e0e0e;  
+        color: map-get($color , c_black);  
     }
     
     
     .formulario_title_1{
         font-size: 35px;  
         padding-bottom: 20px; 
-        color: #000000;
+        color:map-get($color , c_black);
     }
     
     
     .formulario_title_2{
         font-size: 16px; 
         padding-bottom: 30px;
-        color: #0e0e0e;   
+        color: map-get($color , c_black);   
     }
     
     
     .contact_p{
         font-size: 14px; 
-        color: #0e0e0e; 
+        color:map-get($color , c_black); 
     }
     
     .serviceSection{

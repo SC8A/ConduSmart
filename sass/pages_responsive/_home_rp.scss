@@ -13,8 +13,8 @@
         min-width: 80%;
         max-width: 80%;
         border-radius: 5px;
-        border: 1px solid #FED766;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border: 1px solid map-get($color , c_yellow);
+        box-shadow: 0 4px 8px 0 map-get($color , c_shadow);
     }
 
     &__links{
